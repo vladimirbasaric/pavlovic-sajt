@@ -903,7 +903,7 @@ section {
 
 .why-us .box p {
   color: #aaaaaa;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
 }
@@ -917,6 +917,34 @@ section {
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
 }
+
+.why-us i {
+  font-size: 70px;
+}
+
+.why-us .btns {
+  margin-top: 30px;
+}
+
+.why-us .btn-menu{
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+}
+
+.why-us .btn-menu:hover {
+  background: #cda45e;
+  color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Menu Section
