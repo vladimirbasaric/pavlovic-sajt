@@ -940,6 +940,20 @@ section {
   border: 2px solid #cda45e;
 }
 
+.btn-menu{
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+}
+
 .why-us .btn-menu:hover {
   background: #cda45e;
   color: #fff;
@@ -1111,6 +1125,18 @@ section {
     border: 0;
     padding: 15px;
   }
+}
+
+.specials-title{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
