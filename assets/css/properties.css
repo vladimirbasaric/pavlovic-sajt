@@ -1250,7 +1250,7 @@ a:hover {
 
 @media (min-width: 768px) and (min-width: 992px) {
   .card-box-a:hover .card-overlay-a-content {
-    bottom: 64px;
+    bottom: 100px;
   }
 }
 
@@ -1262,7 +1262,7 @@ a:hover {
 
 @media (max-width: 767px) {
   .card-box-a .card-overlay-a-content {
-    bottom: 65px;
+    bottom: 100px;
   }
   .card-box-a .card-body-a {
     padding-bottom: 1rem;
@@ -1337,6 +1337,7 @@ a:hover {
 
 .card-footer-a {
   width: 100%;
+  height: 100px;
   position: absolute;
   z-index: 2;
   background-color: #cda45e;
