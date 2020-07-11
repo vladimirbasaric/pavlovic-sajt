@@ -376,7 +376,7 @@ a:hover {
 } */
 
 /*------/ Owl carousel /------*/
-.owl-theme .owl-dots {
+/* .owl-theme .owl-dots {
   text-align: center;
   margin-top: 18px;
 }
@@ -469,7 +469,7 @@ a:hover {
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-next {
   margin-left: 0px;
-}
+} */
 
 /*------/ Socials /------*/
 /* .socials-a .list-inline-item:not(:last-child) {
@@ -1412,16 +1412,16 @@ a:hover {
 
 .summary-list {
   padding-right: 1rem;
-  color: #000000;
+  color: #fff;
 }
 
 .summary-list .list {
   padding: 0;
-  line-height: 2;
+  /* line-height: 2; */
 }
 
 .summary-list .list span {
-  color: #555555;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
