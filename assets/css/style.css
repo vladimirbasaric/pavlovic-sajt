@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar {
+/* #topbar {
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 10px;
   color: rgba(255, 255, 255, 0.5);
   content: "/";
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  /* top: 40px; */
 }
 
 #header.header-scrolled {
