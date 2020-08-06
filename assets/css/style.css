@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 10px 0;
   /* top: 40px; */
 }
 
@@ -197,13 +197,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 50px;
+  max-height: 90px;
 }
 
 .phone-header {
   position: absolute;
   /* left: 15px; */
-  font-size: 30px;
+  font-size: 32px;
 }
 
 /*--------------------------------------------------------------
@@ -1903,7 +1903,7 @@ section {
 .footer-logo {
   padding: 10px 0;
   margin: 0;
-  max-height: 90px;
+  max-height: 115px;
 }
 
 
