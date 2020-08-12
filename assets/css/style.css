@@ -106,11 +106,11 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
-} */
+}
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  margin: auto;
+  margin: auto;/*dodao za logo da bude u sredini*/
 }
 
 #header .logo a {
@@ -954,10 +954,12 @@ section {
   background: #cda45e;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
 }
 
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
+  cursor: pointer;
 }
 
 .why-us i {
