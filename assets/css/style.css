@@ -932,7 +932,8 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  /* color: #cda45e; */
+  color: #fff;
 }
 
 .why-us .box h4 {
@@ -944,22 +945,31 @@ section {
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  /* color: #aaaaaa; */
+  color: #fff;
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
 
-.why-us .box:hover {
+/* .why-us .box:hover {
   background: #cda45e;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-  /* cursor: pointer; */
 }
 
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
-  /* cursor: pointer; */
+} */
+
+/* [data-aos="example-anim2"] {
+  background: red;
+  -webkit-transition-property: background;
+  transition-property: background;
+} */
+
+[data-aos="example-anim2"].aos-animate {
+  background: #cda45e;
 }
 
 .why-us i {
@@ -969,6 +979,7 @@ section {
 .why-us .btns {
   margin-top: 30px;
 }
+
 
 /* .why-us .btn-menu{
   font-weight: 600;
