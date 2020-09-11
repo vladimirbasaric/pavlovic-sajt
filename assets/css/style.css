@@ -1946,6 +1946,20 @@ section {
   color: #cda45e;
 }
 
+.description-text-2 {
+  /* display: block; */
+  font-size: 20px;
+  font-weight: 700;
+  color: #cda45e;
+}
+
+.description-text-3 {
+  /* display: block; */
+  font-size: 16px;
+  font-weight: 700;
+  color: #cda45e;
+}
+
 .distance  i {
   font-size: 30px;
   padding-right: 4px;
