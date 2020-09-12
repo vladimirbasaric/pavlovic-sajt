@@ -794,7 +794,8 @@ section {
   content: "/";
 }
 
-@media (max-width: 768px) {
+/* Nazad button align left */
+/* @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -804,7 +805,7 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # About
