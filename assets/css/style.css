@@ -18,6 +18,10 @@ body {
   background-color: #fff;
 }
 
+.black-color {
+  color: #0c0b09;
+}
+
 a {
   color: #cda45e;
 }
@@ -979,6 +983,10 @@ section {
 
 [data-aos="example-anim2"].aos-animate {
   background: #cda45e;
+}
+
+[data-aos="example-anim3"].aos-animate {
+  background: #fff;
 }
 
 .why-us i {
