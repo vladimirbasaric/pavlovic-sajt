@@ -819,12 +819,12 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/fasada-na-pocetnoj.png") center center;
+  background: url("../img/fasada-na-pocetnoj.png") fixed center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
   /* za ponistavanje paralax efekata zakomentarisi ispod */
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
  
 }
 
@@ -928,11 +928,11 @@ section {
   margin-bottom: 0;
 }
 
-@media (min-width: 0px) {
+/* @media (min-width: 1024px) {
   .about {
     background-attachment: fixed;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Why Us
