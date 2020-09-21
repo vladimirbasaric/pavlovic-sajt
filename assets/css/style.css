@@ -823,8 +823,11 @@ section {
   background-size: cover;
   position: relative;
   padding: 80px 0;
-  /* za ponistavanje paralax efekata zakomentarisi liniju ispod */
+  /* za ponistavanje paralax efekata zakomentarisigit  ispod */
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about:before {
