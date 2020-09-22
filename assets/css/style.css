@@ -534,9 +534,9 @@ position: relative;
 
 #hero {
   width: 100%;
-  margin-top: 110px;
-  /* height: 100vh; */
-  /* background: url("../img/background.jpg") top center; */
+  /* margin-top: 110px; */
+  height: 100vh;
+  background: url("../img/fasada-dan-zoom.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
