@@ -18,6 +18,10 @@ body {
   background-color: #fff;
 }
 
+.background-2 {
+  background-color:  #cda45e;
+}
+
 .black-color {
   color: #0c0b09;
 }
@@ -28,6 +32,10 @@ a {
 
 .color-1 {
   color: #cda45e;
+}
+
+.background-1 {
+  background-color: #cda45e;
 }
 
 a:hover {
@@ -495,16 +503,36 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#myVideo {
+/* #myVideo {
   position: absolute;
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-  /* ovo je fora da video uvek bude u sredini */
+  ovo je fora da video uvek bude u sredini
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} */
+
+
+
+#myVideo {
+position: relative;
+  right: 0;
+  left: 0;
+  
+  bottom: 0;
+  min-width: 100%;
+  
+  width:100%;
+  height: auto;
+  z-index: -100;
+  /* background: url(images/homapage.jpg) no-repeat; */
+  background-size: cover;
+  z-index: 0;
 }
+
+
 
 #hero {
   width: 100%;
