@@ -34,6 +34,10 @@ a {
   color: #cda45e;
 }
 
+.margin-top-middle {
+  margin-top: 55px;
+}
+
 
 
 a:hover {
@@ -751,7 +755,7 @@ position: relative;
   display: block;
   position: relative;
   overflow: hidden;
-  top: 220px;
+  top: 210px;
 }
 
 #hero .play-btn::after {
