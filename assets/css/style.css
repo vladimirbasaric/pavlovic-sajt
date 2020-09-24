@@ -744,13 +744,14 @@ position: relative;
 } */
 
 #hero .play-btn {
-  width: 94px;
-  height: 94px;
+  width: 80px;
+  height: 80px;
   background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
   overflow: hidden;
+  top: 220px;
 }
 
 #hero .play-btn::after {
