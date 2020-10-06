@@ -1,11 +1,1 @@
-.card-body {
-  border-top: solid 2px  #cda45e;
-  border-bottom: solid 2px  #cda45e;
-  margin: 10px; 
-  /* margin-bottom: 15px; */
-}
-
-.stanovi-link {
-  text-transform: uppercase;
-  font-weight: 700;
-}
+.card-body{border-top:solid 2px #cda45e;border-bottom:solid 2px #cda45e;margin:10px}.stanovi-link{text-transform:uppercase;font-weight:700}
