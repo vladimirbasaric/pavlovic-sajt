@@ -140,97 +140,9 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Kontakt</h2>
-          <p>Kontaktirajte nas</p>
-        </div>
-      </div>
-      </div>
-      <div class="container" data-aos="fade-up">
-        <div class="row mt-2">
-          <div class="col-lg-4">
-            <div class="pb-3">
-              <p>Za sve informacije u vezi projekta, kupovine stanova, parking mesta i lokala, kontaktirajte naše
-                konsultante prodaje. Možete nas posetiti u Vojvode Stepe 232.</p>
-            </div>
-            <div class="info">
-              <div class="address"> <i class="icofont-google-map"></i>
-                <h4>Adresa:</h4>
-                <p>Vojvode Stepe 232, Beograd, Srbija</p>
-              </div>
-              <div class="email"> <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>prodaja@smarthomevozdovac.rs</p>
-              </div>
-              <div class="phone"> <i class="icofont-phone"></i>
-                <h4>Telefon:</h4>
-                <p>+381 60 71 79 007</p>
-              </div>
-              <div class="phone"> <i class="bx bxl-instagram"></i>
-                <h4>Instagram:</h4> <a href="https://www.instagram.com/smarthome.vozdovac/?igshid=kzrcni2fjo2l"
-                  target="_blank">
-                  <p>#SmartHomeVoždovac</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 mt-5 mt-lg-0">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group"> <input type="text" name="name" class="form-control" id="name"
-                    placeholder="Ime" data-rule="minlen:4" data-msg="Molimo Vas unesite bar 4 karaktera" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group"> <input type="email" class="form-control" name="email" id="email"
-                    placeholder="Email adresa" data-rule="email" data-msg="Molimo Vas unesite ispravan email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group"> <input type="text" class="form-control" name="subject" id="subject"
-                  placeholder="Naslov" data-rule="minlen:4" data-msg="Molimo Vas unesite bar 8 karaktera za naslov" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group"> <textarea class="form-control" name="message" rows="8" data-rule="required"
-                  data-msg="Molimo vas unesite Vašu poruku" placeholder="Unesite Vašu poruku"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Vaša poruka je poslata. Hvala</div>
-              </div>
-              <div class="text-center"><button type="submit">Pošaljite poruku</button></div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <my-contact></my-contact>
   </main>
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-5 col-sm-12 text-center my-auto">
-            <div class="footer-info">
-              <h3 class="p-0 m-0">Pavlović Invest</h3>
-              <p> Vojvode Stepe 232, Beograd, Srbija </p>
-            </div>
-          </div>
-          <div class="mx-auto my-auto"> <a href="index.html"><img src="assets/img/SHV-logo.png" alt="logo"
-                class="img-fluid footer-logo"></a> </div>
-          <div class="col-lg-5 col-md-5 text-center my-auto">
-            <div> <strong>Telefon:</strong><span> +381 60 71 79 007</span><br><strong>Email:</strong><span>
-                office@pavlovicinvest.rs</span><br><strong>Web:</strong><span> www.pavlovicinvest.rs</span><br></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="copyright"> &copy; Copyright 2020. Pavlović Invest. Sva prava zadržana. </div>
-    </div>
-  </footer>
+  <my-footer></my-footer>
   <div id="preloader"></div><a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
