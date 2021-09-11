@@ -16,6 +16,7 @@ class MyHeader extends HTMLElement {
           <li><a href="index.html#specials">Stanovi i Lokali</a></li>
           <li><a href="tehnicka-opremljenost.html">Tehnička opremljenost</a></li>
           <li><a href="index.html#events">Investitor</a></li>
+          <li><a href="brosura.html">Brošura</a></li>
           <li><a href="contact.html">Kontakt</a></li>
         </ul>
       </nav>
