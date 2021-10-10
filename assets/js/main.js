@@ -12,11 +12,12 @@ class MyHeader extends HTMLElement {
           <li><a href="index.html#why-us">Lokacija</a></li>
           <li><a href="index.html#park">Park</a></li>
           <li><a href="lobby.html">Lobby</a></li>
-          <li><a href="garaza.html">Garaža</a></li>
           <li><a href="index.html#specials">Stanovi i Lokali</a></li>
+          <li><a href="garaza.html">Garaža</a></li>
           <li><a href="tehnicka-opremljenost.html">Tehnička opremljenost</a></li>
+          <li><a href="virtuelna-tura.html">Virtuelna tura</a></li>
+          <li><a href="brosura.html">Preuzmite brošuru</a></li>  
           <li><a href="index.html#events">Investitor</a></li>
-          <li><a href="brosura.html">Brošura</a></li>
           <li><a href="contact.html">Kontakt</a></li>
         </ul>
       </nav>
