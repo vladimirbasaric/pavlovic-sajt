@@ -83,22 +83,27 @@ class MyFooter2 extends HTMLElement {
     <div class="footer-top">
       <div class="container">
         <div class="row">
+          
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center my-auto">
+            
+            <div class="mx-auto text-center">
+              <a href="index.html">
+                <img src="assets/img/SHV-logo.png" alt="logo" class="img-fluid footer-logo">
+              </a>
+            </div>
+
+            <div class="why-us mb-4">
+              <a href="contact.html" class="btn-menu animated fadeInUp scrollto">Kontaktirajte nas</a>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-4 col-sm-12 text-center my-auto">
             <div class="footer-info">
               <h3 class="p-0 m-0">Pavlović Invest</h3>
               <p> Vojvode Stepe 232, Beograd, Srbija </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 text-center my-auto">
-            <div class="why-us mb-4">
-              <a href="contact.html" class="btn-menu animated fadeInUp scrollto">Kontaktirajte nas</a>
-            </div>
-            <div class="mx-auto text-center">
-              <a href="index.html">
-                <img src="assets/img/SHV-logo.png" alt="logo" class="img-fluid footer-logo">
-              </a>
-            </div>
-          </div>
+
           <div class="col-lg-4 col-md-4 col-sm-12 text-center my-auto">
             <div> <strong>Telefon:</strong><span> +381 69 210 3000</span><br><strong>Email:</strong><span>
                 office@pavlovicinvest.rs</span><br><strong>Web:</strong><span> www.pavlovicinvest.rs</span><br></div>
