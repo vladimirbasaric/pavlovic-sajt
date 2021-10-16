@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
     this.innerHTML = `
     <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <div class="phone-header"> <a href="tel:+381692103000" style="color: white;"> <i class='bx bxs-phone'></i> </a>
+      <div class="phone-header d-lg-none"> <a href="tel:+381692103000" style="color: white;"> <i class='bx bxs-phone'></i> </a>
       </div><a href="index.html" class="logo img-fluid"><img src="assets/img/SHV-logo.png" alt="logo"></a>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
