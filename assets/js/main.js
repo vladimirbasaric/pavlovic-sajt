@@ -37,13 +37,8 @@ class MyFooter extends HTMLElement {
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 text-center my-auto">
-              <div class="footer-info">
-                <h3 class="p-0 m-0">Pavlović Invest</h3>
-                <p>Vojvode Stepe 232, Beograd, Srbija</p>
-              </div>
-            </div>
-            <div class="mx-auto my-auto">
+
+          <div class="col-lg-4 col-md-2 text-center my-auto">
               <a href="index.html"
                 ><img
                   src="assets/img/SHV-logo.png"
@@ -51,15 +46,26 @@ class MyFooter extends HTMLElement {
                   class="img-fluid footer-logo"
               /></a>
             </div>
-            <div class="col-lg-5 col-md-5 text-center my-auto">
+
+            <div class="col-lg-4 col-md-5 text-center my-auto py-3">
               <div>
                 <strong>Telefon:</strong><span> +381 69 210 3000</span
                 ><br /><strong>Email:</strong
-                ><span> office@pavlovicinvest.rs</span><br /><strong
+                ><span> prodaja@smarthomevozdovac.rs</span><br /><strong
                   >Web:</strong
                 ><span> www.pavlovicinvest.rs</span><br />
               </div>
             </div>
+            
+            <div class="col-lg-4 col-md-5 text-center my-auto py-3">
+              <div class="footer-info">
+                <h3 class="p-0 m-0">Pavlović Invest</h3>
+                <p>Vojvode Stepe 232, Beograd, Srbija</p>
+                <strong>Telefon:</strong><span> +381 60 71 79 007</span
+              </div>
+            </div>
+            
+            
           </div>
         </div>
       </div>
