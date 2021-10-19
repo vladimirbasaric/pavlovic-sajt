@@ -51,9 +51,7 @@ class MyFooter extends HTMLElement {
               <div>
                 <strong>Telefon:</strong><span> +381 69 210 3000</span
                 ><br /><strong>Email:</strong
-                ><span> prodaja@smarthomevozdovac.rs</span><br /><strong
-                  >Web:</strong
-                ><span> www.pavlovicinvest.rs</span><br />
+                ><span> prodaja@smarthomevozdovac.rs</span><br />
               </div>
             </div>
             
@@ -61,7 +59,9 @@ class MyFooter extends HTMLElement {
               <div class="footer-info">
                 <h3 class="p-0 m-0">Pavlović Invest</h3>
                 <p>Vojvode Stepe 232, Beograd, Srbija</p>
-                <strong>Telefon:</strong><span> +381 60 71 79 007</span
+                <strong>Telefon:</strong><span> +381 60 71 79 007</span>
+                <br />
+                <strong>Web:</strong><span> www.pavlovicinvest.rs</span>
               </div>
             </div>
             
