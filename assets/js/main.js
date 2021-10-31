@@ -16,7 +16,7 @@ class MyHeader extends HTMLElement {
           <li><a href="garaza.html">Garaža</a></li>
           <li><a href="tehnicka-opremljenost.html">Tehnička opremljenost</a></li>
           <li><a href="virtuelna-tura.html">Virtuelna tura</a></li>
-          <li><a href="brosura.html">Preuzmite brošuru</a></li>  
+          <li><a href="assets/brosura/brosura.pdf" target="_blank">Preuzmite brošuru</a></li>  
           <li><a href="index.html#events">Investitor</a></li>
           <li><a href="contact.html">Kontakt</a></li>
         </ul>
