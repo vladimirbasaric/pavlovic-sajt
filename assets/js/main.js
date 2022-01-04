@@ -112,7 +112,7 @@ class MyFooter2 extends HTMLElement {
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 text-center my-auto">
-            <div> <strong>Telefon:</strong><span> +381 69 210 3000</span><br><strong>Email:</strong><span>
+            <div> <strong>Telefon:</strong><span> +381 60 71 79 007</span><br><strong>Email:</strong><span>
                 office@pavlovicinvest.rs</span><br><strong>Web:</strong><span> www.pavlovicinvest.rs</span><br></div>
           </div>
         </div>
