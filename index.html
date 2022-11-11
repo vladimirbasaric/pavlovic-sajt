@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+
+  <!-- Google Tag Manager -->
+  <script>
+    //if(localStorage.getItem("consentAccepted") == true) {
+      //localStorage.setItem("consentAccepted", true)
+
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KD8D52M');
+    //}
+  </script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta property="og:image" content="assets/img/thumbnail.png" />
@@ -20,11 +34,29 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/cookie-consent.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- HTML code for my-header tag is in the main.js in case you want to change something -->
   <my-header></my-header>
+
+  <cookie-consent></cookie-consent>
+  
+
+  <!--<div id="cookieModalRow" class="row">
+    <div id="cookie-consent-modal" class="col col-xs-10 offset-xs-1 d-flex justify-content-center mt-5">
+      <div id="card" class="card p-3 cookie"><span>We use third party cookies to personalize content, ads and analyze site traffic.<br></span><a href="#">Learn more<i class="fa fa-angle-right ml-2"></i></a>
+          <div class="mt-4 text-right"><span id="declineCookies" class="mr-3 decline">Decline</span><button id="allowCookies" class="btn btn-light btn-sm" type="button">Allow cookies</button></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if(localStorage.getItem("consentAccepted") == null) {
+      document.getElementById("cookieModalRow").style.display = "block";
+    }
+  </script>-->
   
   <section id="hero">
     <div class="hero-container">
@@ -298,6 +330,7 @@
   <script src="assets/vendor/aos/aos.js"></script>
   
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/cookieConsent.js"></script>
 </body>
 
 </html>
