@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      if(localStorage.getItem("consentAccepted") == "true") {   
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KD8D52M');
+      }
+    </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Brošura</title>
@@ -25,10 +34,13 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/cookie-consent.css" rel="stylesheet">
   </head>
 
   <body>
+    <no-script-google-tag></no-script-google-tag>
     <my-header></my-header>
+    <cookie-consent></cookie-consent>
     <h1 style="margin-top: 200px">In construction</h1>
     <my-footer></my-footer>
     <div id="preloader"></div>
@@ -42,5 +54,6 @@
     <script src="assets/vendor/venobox/venobox.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cookieConsent.js"></script>
   </body>
 </html>

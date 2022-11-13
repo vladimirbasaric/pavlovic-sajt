@@ -3,7 +3,6 @@
   <head>
     <!-- Google Tag Manager -->
   <script>
-    console.log("---"+localStorage.getItem("consentAccepted"))
     if(localStorage.getItem("consentAccepted") == "true") {
       console.log('loading Pixel on index page')
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -38,13 +37,16 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/cookie-consent.css" rel="stylesheet">
   </head>
 
   <body>
+    <no-script-google-tag></no-script-google-tag>
     <main id="main">
       <!-- these tags are in main.js as template -->
 
       <my-header></my-header>
+      <cookie-consent></cookie-consent>
       <div class="margin-top-middle"></div>
       <my-contact></my-contact>
     </main>
@@ -60,5 +62,6 @@
     <script src="assets/vendor/venobox/venobox.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cookieConsent.js"></script>
   </body>
 </html>
