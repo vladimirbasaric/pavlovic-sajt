@@ -6,8 +6,11 @@ class CookieConsent extends HTMLElement {
             this.innerHTML = `
             <div id="cookieModalRow" class="row">
                 <div id="cookie-consent-modal" class="col col-xs-10 offset-xs-1 d-flex justify-content-center mt-5">
-                    <div id="card" class="card p-3 cookie"><span>We use third party cookies to personalize content, ads and analyze site traffic.<br></span><a href="#">Learn more<i class="fa fa-angle-right ml-2"></i></a>
-                    <div class="mt-4 text-right"><span id="declineCookies" class="mr-3 decline">Decline</span><button id="allowCookies" class="btn btn-light btn-sm" type="button">Allow cookies</button></div>
+                    <div id="card" class="card p-3 cookie">
+                    <span>Ova web stranica koristi kolačiće.<br></span>
+                    <span>Ovaj sajt koristi kolačiće u cilju boljeg korisničkog iskustva,personalizacije sadržaja pržanja funkcije društvenih medija i analizaranja saobraćaja u skladu sa:</span> 
+                     <a href="./obradaPodatakaOLicnosti.html" style="color: #FFC107; font-size:14px;" target="_blank">Obradom podataka o ličnosti</a>
+                    <div class="mt-4 text-right"><button id="declineCookies" class="btn btn-light btn-sm decline">Samo neophodni kolačići</button><button id="allowCookies" class="btn btn-warning btn-sm" type="button">Omogući sve kolačiće</button></div>
                     </div>
                 </div>
             </div>
@@ -49,7 +52,9 @@ if(allowCookies != null) {
     allowCookies.addEventListener("click", function(){
             console.log("cookies allowed");
             document.getElementById("cookieModalRow").remove();
-            localStorage.setItem("consentAccepted", true)
+            localStorage.setItem("consentAccepted", true);
+            location.reload();
+
     })
 }
 

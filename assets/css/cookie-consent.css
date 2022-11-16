@@ -22,7 +22,7 @@
   }
 
   #card {
-    width: 400px;
+    width: 500px;
     flex-direction: column;
     min-width: 0;
     color: #fff;
@@ -52,4 +52,8 @@
   
   .decline {
     cursor: pointer;
+  }
+
+  #declineCookies {
+    margin-right: 10px;
   }
