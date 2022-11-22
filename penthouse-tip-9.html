@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+  <script>
+    if(localStorage.getItem("consentAccepted") == "true") {
+      console.log('loading Pixel on index page')
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KD8D52M');
+    }
+  </script>
+  <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Stanovi-Detaljnije</title>
@@ -26,10 +38,13 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/apartments-details.css" rel="stylesheet" />
+    <link href="assets/css/cookie-consent.css" rel="stylesheet"/>
   </head>
   <body style="background-color: white">
+    <no-script-google-tag></no-script-google-tag>
     <main id="main">
       <my-header></my-header>
+      <cookie-consent></cookie-consent>
       <section id="specials" class="specials">
         <div class="container">
           <div class="row" style="margin-top: 80px">
@@ -251,5 +266,6 @@
     <script src="assets/vendor/venobox/venobox.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cookieConsent.js"></script>
   </body>
 </html>
